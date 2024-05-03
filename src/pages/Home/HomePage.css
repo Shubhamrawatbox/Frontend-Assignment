@@ -1,0 +1,39 @@
+.text-container {
+  position: relative;
+  font-family: Arial, sans-serif;
+  font-size: 15rem;
+  font-weight: bold;
+  color: transparent;
+  text-transform: uppercase;
+  text-align: center;
+  width: 560px;
+  height: 350px;
+}
+.text-container::before {
+  content: "DOG";
+  position: absolute;
+  left: 0px;
+  top: 0;
+  z-index: 2;
+  background: -webkit-linear-gradient(#dc0000 42%, #ffc801 30%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.text-container::after {
+  content: "DOG";
+  position: absolute;
+  left: 5px;
+  top: 3px;
+  z-index: 1;
+  background: -webkit-linear-gradient(#ffc801 40%, #dc0000 30%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.dog-image {
+  position: absolute;
+  margin-top: 43px;
+  left: 220px;
+  width: 91px;
+  z-index: 2;
+}

@@ -1,0 +1,27 @@
+
+
+.toggle-container{
+    position: relative;
+    margin-right: 50px;
+}
+
+.toggle {
+    border: 0;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  .btn {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+  }
+  

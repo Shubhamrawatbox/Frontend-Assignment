@@ -37,3 +37,15 @@
   width: 91px;
   z-index: 2;
 }
+
+@media screen and (max-width: 500px) {
+  .text-container{
+      font-size:10rem;
+  }
+  .dog-image{
+    margin-top: 20px;
+    left: 140px;
+    width: 65px;
+  }
+}
+
